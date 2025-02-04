@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Vedruna-App",
+    "slug": "Vedruna-App",
+    "platforms": ["ios"],
+    "ios": {
+      "bundleIdentifier": "com.vedrunaapp.ios",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Necesitamos acceder a tu galería para elegir imágenes",
+        "NSCameraUsageDescription": "Necesitamos acceder a tu cámara para tomar fotos"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
